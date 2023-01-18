@@ -1,14 +1,10 @@
 import { createStore } from 'vuex'
 
+import games from './games'
+export const GAMES = 'games'
+
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    games,
   }
 })
